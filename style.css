@@ -9,6 +9,7 @@ body {
   min-height: 100%;
 }
 
+/*The box around the form*/
 .container {
   border-radius: 30px;
   width: 450px;
@@ -19,6 +20,7 @@ body {
   box-shadow: 1px 1px 123px -54px rgba(0, 0, 0, 0.75);
 }
 
+/*title sign in*/
 .title {
   font-family: "Quicksand", sans-serif;
   font-weight: 600;
@@ -28,16 +30,18 @@ body {
   margin: 0;
 }
 
+/*The div aon the form to give padding to inputs*/
 .sign-in {
   padding: 25px 25px 0;
   margin: 20px 20px 0;
   border-radius: 3px;
 }
 
+/*Gives inputs a bottom border*/
 .form-input {
   border-bottom: solid;
 }
-
+/*Styling for inputs*/
 input {
   font-family: "Quicksand", sans-serif;
   width: 100%;
@@ -48,6 +52,7 @@ input {
   color: #3a3f44;
 }
 
+/* When in focus on input no outline*/
 input:focus {
   outline-width: 0;
 }
@@ -66,6 +71,7 @@ input:focus {
   border-radius: 30px;
 }
 
+/* Line 74 to 116 for rainbow border*/
 .container {
   --borderWidth: 3px;
   background: white;
@@ -107,18 +113,11 @@ input:focus {
     background-position: 0% 50%;
   }
 }
+/*-------------*/
 
-h1 {
-  font-family: "Quicksand", sans-serif;  
-  text-align: center;
-  padding-top: 20px;
-  color: #000;
-}
-p {
-  text-align: center;
-  font-family: "Quicksand", sans-serif;
-  color: #999;
-}
+
+
+/* Line 120 to 270 for hover Log in animation */
 .button {
   width: 200px;
   margin: 15% auto;
@@ -143,7 +142,6 @@ p {
 .button:hover .hoverBtn-bottom:after {
   opacity: 1;
   -webkit-animation: openB 0.4s;
-  /* Chrome, Safari, Opera */
   animation: openB 0.4s;
   animation-delay: 0.4s;
   animation-fill-mode: forwards;
@@ -269,3 +267,4 @@ p.credits {
     width: 100px;
   }
 }
+/* ---------------------- */
