@@ -12,7 +12,8 @@ body {
 /*The box around the form*/
 .container {
   border-radius: 30px;
-  width: 450px;
+  min-width: 450px;
+  min-height: 450px;
   display: flex;
   flex-direction: column;
   -webkit-box-shadow: 1px 1px 123px -54px rgba(0, 0, 0, 0.75);
@@ -30,7 +31,7 @@ body {
   margin: 0;
 }
 
-/*The div aon the form to give padding to inputs*/
+/*give padding to inputs*/
 .sign-in {
   padding: 25px 25px 0;
   margin: 20px 20px 0;
@@ -71,7 +72,11 @@ input:focus {
   border-radius: 30px;
 }
 
-/* Line 74 to 116 for rainbow border*/
+/* Line 74 to 116 for rainbow border
+
+https://codepen.io/P1N2O/pen/pyBNzX
+
+*/
 .container {
   --borderWidth: 3px;
   background: white;
